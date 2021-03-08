@@ -1,0 +1,13 @@
+phrase:
+  access_token: e236b4e75fa58f402d50f461317156b7c2dc9d883c997d1293cd22d9467970de
+  project_id: 0f496b05c6a003230c9f0456a4e8b6ef
+  push:
+    sources:
+    - file: ./<locale_code>.lproj/Localizable.strings
+      params:
+        file_format: strings
+  pull:
+    targets:
+    - file: ./<locale_code>.lproj/Localizable.strings
+      params:
+        file_format: strings
